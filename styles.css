@@ -90,6 +90,7 @@ section {
     object-fit: cover;
     border: 4px solid #fff;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex-shrink: 0; /* Prevents image from shrinking */
 }
 
 .profile-text {
@@ -297,5 +298,20 @@ footer {
 
     .publication-item .number {
         margin-bottom: 0.5rem;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-text {
+        text-align: center;
     }
 } 
