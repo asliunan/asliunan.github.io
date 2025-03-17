@@ -294,10 +294,11 @@ main {
 }
 
 .working-papers h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
+    margin-top: 2rem;
 }
 
 .working-papers p {
