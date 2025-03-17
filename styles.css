@@ -109,6 +109,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .profile-image {
@@ -173,6 +174,7 @@ main {
     margin-bottom: 1.5rem;
     padding-top: 1.2rem;
     border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .contact-info p {
@@ -191,28 +193,29 @@ main {
 
 .cv-link {
     display: inline-block;
-    margin-top: 1rem;
     padding: 0.7rem 1.8rem;
-    background-color: #228B22;
-    color: white;
+    background-color: #f8f9fa;
+    color: #228B22;
     text-decoration: none;
     border-radius: 25px;
     transition: all 0.3s ease;
     font-size: 0.95rem;
     font-weight: 500;
-    box-shadow: 0 2px 8px rgba(34, 139, 34, 0.2);
+    border: 1px solid #228B22;
+    margin-top: 1rem;
 }
 
 .cv-link:hover {
-    background-color: #1a6b1a;
+    background-color: #228B22;
+    color: white;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
 }
 
 .external-links {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .scholar-link {
