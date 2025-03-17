@@ -35,7 +35,7 @@ nav {
     margin: 0 auto;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -49,8 +49,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 2rem;
-    margin-left: auto;
-    padding-right: 2rem;
+    padding-right: 0;
 }
 
 .nav-links a {
@@ -495,13 +494,13 @@ footer {
 
 .social-buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.8rem;
     justify-content: flex-start;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
-    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .social-button {
@@ -517,7 +516,8 @@ footer {
     font-size: 0.85rem;
     font-weight: 500;
     border: 1px solid #169873;
-    white-space: nowrap;
+    width: 100%;
+    justify-content: center;
 }
 
 .social-button:hover {
