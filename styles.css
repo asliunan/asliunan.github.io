@@ -8,9 +8,9 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px auto;
-    max-width: 800px;
+    max-width: 1200px;
     line-height: 1.6;
-    padding: 0 10px;
+    padding: 0 20px;
     color: #333;
 }
 
@@ -30,7 +30,7 @@ header {
 }
 
 nav {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
     display: flex;
@@ -80,98 +80,69 @@ main {
     margin-top: 70px;
 }
 
-section {
-    padding: 4rem 2rem;
-    max-width: 800px;
-    margin: 0 auto;
+/* Two-column layout */
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
 }
 
-.hero {
-    background-color: #f8f9fa;
-    text-align: center;
-    padding: 6rem 2rem;
-    position: relative;
-    overflow: hidden;
+/* Left column */
+.left-column {
+    position: sticky;
+    top: 90px;
+    height: fit-content;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
-    pointer-events: none;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
+.profile-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
 
 .profile-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 3rem;
-    margin-bottom: 3rem;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 .profile-image {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #fff;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    flex-shrink: 0;
-    display: block;
-    transition: transform 0.3s ease;
-}
-
-.profile-image:hover {
-    transform: scale(1.02);
-}
-
-.profile-text {
-    flex: 1;
-    padding-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .profile-text h1 {
-    font-size: 3rem;
-    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
     color: #333;
-    font-weight: 700;
-    letter-spacing: -0.5px;
 }
 
 .profile-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #333;
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
 
 .profile-text .institution {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #666;
-    margin-bottom: 0;
 }
 
 .bio-content {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .bio-content p {
-    margin-bottom: 1.5rem;
-    font-size: 1rem;
-    color: #333;
-    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 .bio-content a {
@@ -187,8 +158,8 @@ section {
 }
 
 .contact-info {
-    margin-top: 2rem;
-    padding-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -227,32 +198,51 @@ section {
     box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
 }
 
-/* Publications section */
-.publications {
+.external-links {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.scholar-link {
+    display: inline-block;
+    padding: 0.7rem 1.8rem;
+    background-color: #f8f9fa;
+    color: #228B22;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: 1px solid #228B22;
+}
+
+.scholar-link:hover {
+    background-color: #228B22;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Right column */
+.right-column {
     background-color: #fff;
-    padding-top: 5rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
 
 .publications h2 {
     font-size: 2rem;
     color: #333;
-    margin-bottom: 2.5rem;
-    text-align: center;
+    margin-bottom: 2rem;
     font-weight: 700;
-    letter-spacing: -0.5px;
 }
 
 .publications h3 {
     font-size: 1.4rem;
     color: #333;
     margin: 3rem 0 1.5rem;
-    text-align: center;
     font-weight: 600;
-}
-
-.publications-list {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .publication-item {
@@ -301,8 +291,6 @@ section {
 }
 
 .working-papers {
-    max-width: 800px;
-    margin: 0 auto;
     padding: 2rem;
     background-color: #f8f9fa;
     border-radius: 8px;
@@ -330,75 +318,6 @@ section {
     font-size: 0.9rem;
 }
 
-/* Teaching section */
-.teaching {
-    background-color: #fff;
-    padding-top: 5rem;
-}
-
-.teaching h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 2.5rem;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-}
-
-.teaching-category {
-    max-width: 800px;
-    margin: 0 auto 3rem;
-}
-
-.teaching-category:last-child {
-    margin-bottom: 0;
-}
-
-.teaching-category h3 {
-    font-size: 1.4rem;
-    color: #333;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    font-weight: 600;
-    position: relative;
-    display: inline-block;
-}
-
-.teaching-category h3::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40px;
-    height: 3px;
-    background-color: #228B22;
-    border-radius: 2px;
-}
-
-.teaching-list {
-    list-style: none;
-    padding: 0;
-}
-
-.teaching-list li {
-    padding: 1rem 1.5rem;
-    margin-bottom: 0.8rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border: 1px solid rgba(0,0,0,0.05);
-    transition: all 0.3s ease;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    color: #333;
-}
-
-.teaching-list li:hover {
-    transform: translateX(5px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    background-color: #fff;
-}
-
 /* Footer */
 footer {
     background-color: #333;
@@ -410,17 +329,43 @@ footer {
 }
 
 /* Responsive design */
+@media (max-width: 1024px) {
+    .two-column-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .left-column {
+        position: static;
+    }
+
+    .profile-container {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        text-align: left;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
     }
     
-    .profile-text h1 {
-        font-size: 2.2rem;
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
     }
-    
-    section {
-        padding: 2rem 1rem;
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
     }
 
     .publication-item {
@@ -430,22 +375,5 @@ footer {
 
     .publication-item .number {
         margin-bottom: 0.5rem;
-    }
-
-    .profile-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1.5rem;
-    }
-
-    .profile-image {
-        width: 220px;
-        height: 220px;
-    }
-
-    .profile-text {
-        text-align: center;
-        padding-top: 0;
     }
 } 
