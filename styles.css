@@ -477,12 +477,13 @@ footer {
 
 .social-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 0.8rem;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
+    flex-wrap: nowrap;
 }
 
 .social-button {
@@ -498,6 +499,7 @@ footer {
     font-size: 0.85rem;
     font-weight: 500;
     border: 1px solid #169873;
+    white-space: nowrap;
 }
 
 .social-button:hover {
