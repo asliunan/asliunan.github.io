@@ -468,6 +468,7 @@ footer {
 .teaching h3 {
     color: #169873;
     font-size: 1.2rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -545,6 +546,7 @@ footer {
 .news-section h3 {
     color: #169873;
     font-size: 1.2rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
