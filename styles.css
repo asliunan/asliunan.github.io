@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #228B22;
+    color: #169873;
 }
 
 /* Main content */
@@ -152,7 +152,7 @@ main {
 }
 
 .bio-content a {
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
 }
 
@@ -173,7 +173,7 @@ main {
 }
 
 .contact-info a {
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
 }
 
@@ -185,18 +185,18 @@ main {
     display: inline-block;
     padding: 0.7rem 1.8rem;
     background-color: #f8f9fa;
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
     border-radius: 25px;
     transition: all 0.3s ease;
     font-size: 0.95rem;
     font-weight: 500;
-    border: 1px solid #228B22;
+    border: 1px solid #169873;
     margin-top: 1rem;
 }
 
 .cv-link:hover {
-    background-color: #228B22;
+    background-color: #169873;
     color: white;
     transform: translateY(-2px);
 }
@@ -212,17 +212,17 @@ main {
     display: inline-block;
     padding: 0.7rem 1.8rem;
     background-color: #f8f9fa;
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
     border-radius: 25px;
     transition: all 0.3s ease;
     font-size: 0.95rem;
     font-weight: 500;
-    border: 1px solid #228B22;
+    border: 1px solid #169873;
 }
 
 .scholar-link:hover {
-    background-color: #228B22;
+    background-color: #169873;
     color: white;
     transform: translateY(-2px);
 }
@@ -264,7 +264,7 @@ main {
 
 .publication-item .number {
     font-weight: 600;
-    color: #228B22;
+    color: #169873;
     min-width: 2rem;
 }
 
@@ -274,7 +274,7 @@ main {
 }
 
 .publication-item a {
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
 }
 
@@ -301,7 +301,7 @@ main {
 }
 
 .working-papers a {
-    color: #228B22;
+    color: #169873;
     text-decoration: none;
 }
 
