@@ -239,7 +239,7 @@ main {
 }
 
 .publications h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -294,7 +294,7 @@ main {
 }
 
 .working-papers h3 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -404,7 +404,7 @@ footer {
 }
 
 .news h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -439,14 +439,14 @@ footer {
 }
 
 .teaching h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
 }
 
 .teaching h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #333;
     margin: 2rem 0 1rem;
     font-weight: 600;
