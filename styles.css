@@ -70,40 +70,86 @@ section {
     padding: 6rem 2rem;
 }
 
-.hero h1 {
+.hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.profile-text {
+    flex: 1;
+}
+
+.profile-text h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     color: #2c3e50;
 }
 
-.hero h2 {
+.profile-text h2 {
     font-size: 1.8rem;
     color: #34495e;
     margin-bottom: 0.5rem;
     font-weight: 500;
 }
 
-.hero .institution {
+.profile-text .institution {
     font-size: 1.2rem;
     color: #7f8c8d;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
-.hero-content {
+.bio-content {
+    text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    text-align: left;
 }
 
-.hero-content p {
+.bio-content p {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
     color: #2c3e50;
 }
 
+.contact-info {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
 .cv-link {
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0.8rem 2rem;
     background-color: #007bff;
     color: white;
@@ -128,31 +174,6 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
-}
-
-/* Contact section */
-.contact {
-    background-color: #f8f9fa;
-}
-
-.contact-info {
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid #eee;
-}
-
-.contact-info p {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-}
-
-.contact-info a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
 }
 
 /* Publications section */
