@@ -61,7 +61,7 @@ nav {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #007bff;
+    background-color: #228B22;
     transition: width 0.3s ease;
 }
 
@@ -169,15 +169,15 @@ section {
 }
 
 .bio-content a {
-    color: #007bff;
+    color: #228B22;
     text-decoration: none;
     transition: all 0.3s ease;
     border-bottom: 1px solid transparent;
 }
 
 .bio-content a:hover {
-    color: #0056b3;
-    border-bottom-color: #0056b3;
+    color: #1a6b1a;
+    border-bottom-color: #1a6b1a;
 }
 
 .contact-info {
@@ -192,33 +192,33 @@ section {
 }
 
 .contact-info a {
-    color: #007bff;
+    color: #228B22;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #0056b3;
+    color: #1a6b1a;
 }
 
 .cv-link {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.7rem 1.8rem;
-    background-color: #007bff;
+    background-color: #228B22;
     color: white;
     text-decoration: none;
     border-radius: 25px;
     transition: all 0.3s ease;
     font-size: 0.95rem;
     font-weight: 500;
-    box-shadow: 0 2px 8px rgba(0,123,255,0.2);
+    box-shadow: 0 2px 8px rgba(34, 139, 34, 0.2);
 }
 
 .cv-link:hover {
-    background-color: #0056b3;
+    background-color: #1a6b1a;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+    box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
 }
 
 /* Publications section */
@@ -267,7 +267,7 @@ section {
 
 .publication-item .number {
     font-weight: 600;
-    color: #007bff;
+    color: #228B22;
     margin-right: 1.2rem;
     min-width: 2rem;
     font-size: 0.95rem;
@@ -286,7 +286,7 @@ section {
 }
 
 .publication-item a:hover {
-    color: #007bff;
+    color: #228B22;
 }
 
 .publication-item em {
@@ -316,7 +316,7 @@ section {
 }
 
 .working-papers a:hover {
-    color: #007bff;
+    color: #228B22;
 }
 
 .working-papers em {
@@ -366,7 +366,7 @@ section {
     transform: translateX(-50%);
     width: 40px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #228B22;
     border-radius: 2px;
 }
 
