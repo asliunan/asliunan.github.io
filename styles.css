@@ -235,6 +235,13 @@ main {
     box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
 
+.publications {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+
 .publications h2 {
     font-size: 1.8rem;
     color: #333;
@@ -253,12 +260,11 @@ main {
     display: flex;
     margin-bottom: 1rem;
     padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
-.publication-item:hover {
-    transform: none;
-    box-shadow: none;
-    background-color: transparent;
+.publication-item:last-child {
+    border-bottom: none;
 }
 
 .publication-item .number {
@@ -296,9 +302,17 @@ main {
 }
 
 .working-papers p {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
     line-height: 1.5;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.working-papers p:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .working-papers a {
