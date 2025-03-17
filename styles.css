@@ -378,4 +378,13 @@ footer {
     .publication-item .number {
         margin-bottom: 0.5rem;
     }
+}
+
+.purple-link {
+    color: #800080;
+    text-decoration: none;
+}
+
+.purple-link:hover {
+    text-decoration: underline;
 } 
