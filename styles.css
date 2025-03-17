@@ -229,17 +229,13 @@ main {
 
 /* Right column */
 .right-column {
-    background-color: #fff;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
 }
 
 .publications {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .publications h2 {
@@ -249,18 +245,17 @@ main {
     font-weight: 700;
 }
 
-.publications h3 {
-    font-size: 1.3rem;
-    color: #333;
-    margin: 2rem 0 1.2rem;
-    font-weight: 600;
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .publication-item {
     display: flex;
-    margin-bottom: 1rem;
+    gap: 1rem;
     padding: 0.5rem 0;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .publication-item:last-child {
@@ -270,14 +265,11 @@ main {
 .publication-item .number {
     font-weight: 600;
     color: #228B22;
-    margin-right: 1rem;
-    min-width: 1.8rem;
-    font-size: 0.9rem;
+    min-width: 2rem;
 }
 
 .publication-item p {
     margin: 0;
-    font-size: 0.9rem;
     line-height: 1.5;
 }
 
@@ -290,29 +282,22 @@ main {
     text-decoration: underline;
 }
 
-.publication-item em {
-    color: #666;
-    font-size: 0.85rem;
+.working-papers {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-.working-papers {
-    padding: 0;
-    background-color: transparent;
-    border: none;
+.working-papers h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 
 .working-papers p {
     margin-bottom: 1rem;
-    font-size: 0.9rem;
     line-height: 1.5;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-}
-
-.working-papers p:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .working-papers a {
@@ -324,9 +309,13 @@ main {
     text-decoration: underline;
 }
 
-.working-papers em {
-    color: #666;
-    font-size: 0.85rem;
+.working-papers .purple-link {
+    color: #800080;
+}
+
+.working-papers .purple-link:hover {
+    color: #800080;
+    text-decoration: underline;
 }
 
 /* Footer */
