@@ -168,6 +168,18 @@ section {
     line-height: 1.7;
 }
 
+.bio-content a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.bio-content a:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
+
 .contact-info {
     margin-top: 2rem;
     padding-top: 2rem;
