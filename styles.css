@@ -416,6 +416,7 @@ footer {
     text-decoration: underline;
 }
 
+/* News section */
 .news {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -447,7 +448,7 @@ footer {
 
 .award-item p {
     margin: 0;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     display: block;
 }
 
@@ -491,6 +492,42 @@ footer {
 .teaching-item p {
     margin: 0;
     line-height: 1.5;
+    font-size: 0.85rem;
+}
+
+/* Remove duplicate styles */
+.teaching-section h3,
+.news-section h3 {
+    color: #169873;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.teaching-section .course-item,
+.news-section .news-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.teaching-section .course-item:last-child,
+.news-section .news-item:last-child {
+    border-bottom: none;
+}
+
+.teaching-section .course-item p,
+.news-section .news-item p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.85rem;
+}
+
+.teaching-section .course-item .year,
+.news-section .news-item .year {
+    color: #666;
+    font-style: italic;
     font-size: 0.85rem;
 }
 
@@ -540,39 +577,4 @@ footer {
 .social-button.location:hover {
     background-color: #666;
     color: white;
-}
-
-.teaching-section h3,
-.news-section h3 {
-    color: #169873;
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-}
-
-.teaching-section .course-item,
-.news-section .news-item {
-    margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.teaching-section .course-item:last-child,
-.news-section .news-item:last-child {
-    border-bottom: none;
-}
-
-.teaching-section .course-item p,
-.news-section .news-item p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: 0.85rem;
-}
-
-.teaching-section .course-item .year,
-.news-section .news-item .year {
-    color: #666;
-    font-style: italic;
-    font-size: 0.85rem;
 } 
