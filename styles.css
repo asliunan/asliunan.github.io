@@ -301,9 +301,8 @@ main {
 
 .working-papers .publication-item {
     display: flex;
-    align-items: flex-start;
     gap: 1rem;
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -311,9 +310,9 @@ main {
     border-bottom: none;
 }
 
-.working-papers .number {
-    color: #169873;
+.working-papers .publication-item .number {
     font-weight: 600;
+    color: #169873;
     min-width: 2rem;
 }
 
@@ -326,19 +325,10 @@ main {
 .working-papers .publication-item a {
     color: #169873;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .working-papers .publication-item a:hover {
-    color: #0d6b4f;
-}
-
-.working-papers .publication-item .purple-link {
-    color: #6f42c1;
-}
-
-.working-papers .publication-item .purple-link:hover {
-    color: #5a32a3;
+    text-decoration: underline;
 }
 
 .working-papers .publication-item em {
