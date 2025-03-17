@@ -282,6 +282,11 @@ main {
     text-decoration: underline;
 }
 
+.publication-item em {
+    color: #666;
+    font-style: italic;
+}
+
 .working-papers {
     margin-top: 2rem;
     padding-top: 2rem;
@@ -316,6 +321,11 @@ main {
 .working-papers .purple-link:hover {
     color: #800080;
     text-decoration: underline;
+}
+
+.working-papers em {
+    color: #666;
+    font-style: italic;
 }
 
 /* Footer */
