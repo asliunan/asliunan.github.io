@@ -288,17 +288,16 @@ main {
 }
 
 .working-papers {
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding-top: 2rem;
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-.working-papers h3 {
+.working-papers h2 {
     font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
-    margin-top: 0;
 }
 
 .working-papers .publication-item {
@@ -340,8 +339,7 @@ main {
 }
 
 .working-papers .purple-link:hover {
-    color: #800080;
-    text-decoration: underline;
+    color: #5a32a3;
 }
 
 .working-papers em {
