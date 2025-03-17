@@ -494,8 +494,8 @@ footer {
 
 .social-buttons {
     display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+    flex-direction: row;
+    gap: 1rem;
     justify-content: flex-start;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
@@ -507,17 +507,16 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
     background-color: #f8f9fa;
     color: #169873;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 15px;
     transition: all 0.3s ease;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 500;
     border: 1px solid #169873;
-    width: 100%;
-    justify-content: center;
+    white-space: nowrap;
 }
 
 .social-button:hover {
@@ -527,7 +526,7 @@ footer {
 }
 
 .social-button i {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .social-button.location {
