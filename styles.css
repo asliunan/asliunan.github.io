@@ -35,7 +35,7 @@ nav {
     margin: 0 auto;
     padding: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -50,6 +50,7 @@ nav {
     display: flex;
     gap: 2rem;
     padding-right: 0;
+    margin-left: 2rem;
 }
 
 .nav-links a {
