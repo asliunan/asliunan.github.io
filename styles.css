@@ -317,31 +317,31 @@ main {
     min-width: 2rem;
 }
 
-.working-papers p {
+.working-papers .publication-item p {
     margin: 0;
     line-height: 1.5;
     font-size: 0.85rem;
 }
 
-.working-papers a {
+.working-papers .publication-item a {
     color: #169873;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.working-papers a:hover {
+.working-papers .publication-item a:hover {
     color: #0d6b4f;
 }
 
-.working-papers .purple-link {
+.working-papers .publication-item .purple-link {
     color: #6f42c1;
 }
 
-.working-papers .purple-link:hover {
+.working-papers .publication-item .purple-link:hover {
     color: #5a32a3;
 }
 
-.working-papers em {
+.working-papers .publication-item em {
     color: #666;
     font-style: italic;
 }
