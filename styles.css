@@ -226,6 +226,16 @@ h2 {
     line-height: 1.6;
 }
 
+.publication-item a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.publication-item a:hover {
+    color: #007bff;
+}
+
 .publication-item em {
     color: #666;
 }
@@ -242,6 +252,16 @@ h2 {
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.working-papers a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.working-papers a:hover {
+    color: #007bff;
 }
 
 .working-papers em {
