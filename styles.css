@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     padding: 0 20px;
     color: #333;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 h1 {
@@ -116,20 +116,20 @@ main {
 }
 
 .profile-text h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 0.4rem;
     color: #333;
 }
 
 .profile-text h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
     margin-bottom: 0.4rem;
     font-weight: 500;
 }
 
 .profile-text .institution {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: #666;
 }
 
@@ -239,7 +239,7 @@ main {
 }
 
 .publications h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -294,7 +294,7 @@ main {
 }
 
 .working-papers h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -405,7 +405,7 @@ footer {
 }
 
 .news h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
@@ -440,14 +440,14 @@ footer {
 }
 
 .teaching h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: 700;
 }
 
 .teaching h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #333;
     margin: 2rem 0 1rem;
     font-weight: 600;
@@ -472,4 +472,49 @@ footer {
     margin: 0;
     line-height: 1.5;
     font-size: 0.95rem;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f8f9fa;
+    color: #169873;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #169873;
+}
+
+.social-button:hover {
+    background-color: #169873;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.social-button i {
+    font-size: 1rem;
+}
+
+.social-button.location {
+    color: #666;
+    border-color: #666;
+}
+
+.social-button.location:hover {
+    background-color: #666;
+    color: white;
 } 
