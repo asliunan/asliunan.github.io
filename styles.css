@@ -337,6 +337,14 @@ main {
     font-style: italic;
 }
 
+.working-papers .publication-item .purple-link {
+    color: #6f42c1;
+}
+
+.working-papers .publication-item .purple-link:hover {
+    color: #5a32a3;
+}
+
 /* Footer */
 footer {
     background-color: #333;
@@ -398,11 +406,12 @@ footer {
 }
 
 .purple-link {
-    color: #800080;
+    color: #6f42c1;
     text-decoration: none;
 }
 
 .purple-link:hover {
+    color: #5a32a3;
     text-decoration: underline;
 }
 
