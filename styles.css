@@ -77,24 +77,26 @@ section {
 
 .profile-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
     margin-bottom: 3rem;
     text-align: left;
 }
 
 .profile-image {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #fff;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    flex-shrink: 0; /* Prevents image from shrinking */
+    flex-shrink: 0;
+    display: block;
 }
 
 .profile-text {
     flex: 1;
+    padding-top: 1rem;
 }
 
 .profile-text h1 {
@@ -302,16 +304,18 @@ footer {
 
     .profile-container {
         flex-direction: column;
+        align-items: center;
         text-align: center;
         gap: 1.5rem;
     }
 
     .profile-image {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
 
     .profile-text {
         text-align: center;
+        padding-top: 0;
     }
 } 
