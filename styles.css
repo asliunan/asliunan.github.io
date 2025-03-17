@@ -141,6 +141,14 @@ main {
     color: #666;
 }
 
+.bio-section {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
 .bio-content {
     margin-bottom: 2rem;
 }
@@ -154,13 +162,10 @@ main {
 .bio-content a {
     color: #228B22;
     text-decoration: none;
-    transition: all 0.3s ease;
-    border-bottom: 1px solid transparent;
 }
 
 .bio-content a:hover {
-    color: #1a6b1a;
-    border-bottom-color: #1a6b1a;
+    text-decoration: underline;
 }
 
 .contact-info {
@@ -177,11 +182,10 @@ main {
 .contact-info a {
     color: #228B22;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #1a6b1a;
+    text-decoration: underline;
 }
 
 .cv-link {
@@ -282,13 +286,12 @@ main {
 }
 
 .publication-item a {
-    color: #333;
+    color: #228B22;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .publication-item a:hover {
-    color: #228B22;
+    text-decoration: underline;
 }
 
 .publication-item em {
@@ -310,13 +313,12 @@ main {
 }
 
 .working-papers a {
-    color: #333;
+    color: #228B22;
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .working-papers a:hover {
-    color: #228B22;
+    text-decoration: underline;
 }
 
 .working-papers em {
