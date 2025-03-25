@@ -577,4 +577,43 @@ footer {
 .social-button.location:hover {
     background-color: #666;
     color: white;
+}
+
+/* Add these styles to your existing styles.css file */
+
+.research {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.research h2 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.research h3 {
+    color: #169873;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.project {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.project:last-child {
+    border-bottom: none;
+}
+
+.project p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 0.85rem;
 } 
