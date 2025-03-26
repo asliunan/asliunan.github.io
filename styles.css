@@ -51,6 +51,13 @@ nav {
     gap: 2rem;
     padding-right: 0;
     margin-left: 2rem;
+    list-style: none;
+}
+
+.nav-links li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links a {
