@@ -11,6 +11,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" type="image/png" href="assets/images/ocean.png">
     <link rel="shortcut icon" href="assets/images/ocean.png">
+    <style>
+        /* Remove divider lines between publications and working papers */
+        .publication-item,
+        .publication-item p,
+        .publications-list,
+        .publications-list div,
+        .publications-list p {
+            border: none !important;
+            border-top: none !important;
+            border-bottom: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+        }
+
+        .publication-item {
+            margin-bottom: 15px;
+            padding: 0;
+        }
+
+        .publication-item:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Remove any potential divider lines from parent elements */
+        .publications,
+        .right-column,
+        .two-column-layout {
+            border: none !important;
+            border-top: none !important;
+            border-bottom: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+        }
+    </style>
 </head>
 <body>
     <header>

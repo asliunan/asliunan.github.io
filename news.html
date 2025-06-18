@@ -18,15 +18,41 @@
             color: #333;
         }
 
-        /* Remove lines between publications */
-        .award-item {
+        /* Remove all divider lines */
+        .award-item,
+        .award-item p,
+        .awards-list,
+        .awards-list div,
+        .awards-list p {
             border: none !important;
+            border-top: none !important;
             border-bottom: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            box-shadow: none !important;
+            outline: none !important;
+        }
+
+        .award-item {
             margin-bottom: 15px;
+            padding: 0;
         }
 
         .award-item:last-child {
             margin-bottom: 0;
+        }
+
+        /* Remove any potential divider lines from parent elements */
+        .news,
+        .right-column,
+        .two-column-layout {
+            border: none !important;
+            border-top: none !important;
+            border-bottom: none !important;
+            border-left: none !important;
+            border-right: none !important;
+            box-shadow: none !important;
+            outline: none !important;
         }
 
         @media screen and (max-width: 768px) {
