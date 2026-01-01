@@ -119,7 +119,8 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    object-position: center 20%;
+    object-position: center center;
+    transform: scale(0.85);
 }
 
 .profile-text h1 {
