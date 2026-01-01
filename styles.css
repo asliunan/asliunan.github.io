@@ -124,10 +124,11 @@ main {
 }
 
 .profile-image {
-    width: 150%;
-    height: 150%;
+    width: 180%;
+    height: 180%;
     object-fit: cover;
     object-position: center center;
+    transform: scale(1);
 }
 
 .profile-text h1 {
