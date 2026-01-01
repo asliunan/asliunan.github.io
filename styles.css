@@ -125,16 +125,12 @@ main {
 }
 
 .profile-image {
-    min-width: 250%;
-    min-height: 250%;
-    width: 250%;
-    height: 250%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    object-position: center 30%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    object-position: center 25%;
+    transform: scale(0.7);
+    transform-origin: center center;
 }
 
 .profile-text h1 {
